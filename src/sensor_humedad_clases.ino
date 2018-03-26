@@ -38,11 +38,11 @@ void setup()
 {
 
   pinMode(bombaPin, INPUT);
-    Serial.begin(115200);
+    Serial.begin(9600);
   Serial.println("Reading from the sensor...");
-  timerEsperaId = timerEspera.setInterval(MINUTO*2, idle);
-  delay(10000);
-  sense();
+//  timerEsperaId = timerEspera.setInterval(MINUTO*2, idle);
+//  delay(10000);
+//  sense();
 }
 
 void sense(){
@@ -67,12 +67,12 @@ void sense(){
   Serial.println(digitalRead(bombaPin));
   Serial.print("Contador: ");
   Serial.println(contador);
-  contador++;
-  if (contador == 3)
-  {
-    Serial.println("Modificar");
-    setDelayReading(1);
-  }
+//  contador++;
+//  if (contador == 3)
+//  {
+//    Serial.println("Modificar");
+//    setDelayReading(1);
+//  }
 
 }
 
@@ -84,7 +84,7 @@ void idle()
 
 void loop()
 {
-    timerEspera.run();
+//    timerEspera.run();
     serialJson.check();
 }
 
@@ -130,6 +130,6 @@ void core(uint8_t tipo, uint32_t valor)
         setDelayReading(valor);
     }
     else if (tipo == 5) { /// sensores de humedad
-
+        sense();
     }
 }
