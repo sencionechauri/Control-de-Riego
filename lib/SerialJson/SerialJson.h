@@ -5,10 +5,12 @@
 #ifndef CONTROL_DE_RIEGO_SERIALJSON_H
 #define CONTROL_DE_RIEGO_SERIALJSON_H
 
+#include <Arduino.h>
 #include <ArduinoJson.h>
 
 class SerialJson {
     StaticJsonBuffer<512> jsonBuffer;
+
 public:
     String inputString = "";         // a string to hold incoming data
     boolean stringComplete = false;  // whether the string is complete
@@ -26,7 +28,7 @@ public:
             Serial.println(tipo);
             Serial.println(valor);
             jsonBuffer.clear();
-//    core(tipo, valor);
+            core(tipo, valor);
             // clear the string:
             inputString = "";
             stringComplete = false;

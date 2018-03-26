@@ -15,6 +15,13 @@ int muestras = 0;
 int timerEsperaId;
 int bombaPin = 7;
 static const int BOMBA_ON = 1;
+long delayOriginal = 2;
+int contador = 0;
+
+void setDelayReading(long minutos)
+{
+  timerEsperaId = timerEspera.setInterval(MINUTO * minutos, idle);
+}
 
 /*!
  * Para usar JSON
@@ -27,21 +34,22 @@ void core();
 
 void setup()
 {
-    pinMode(bombaPin, INPUT);
+
+  pinMode(bombaPin, INPUT);
     Serial.begin(115200);
-    Serial.println("Reading from the sensor...");
-    timerEsperaId = timerEspera.setInterval(HORA*6, idle);
-//  delay(20000);
-//  sense();
+  Serial.println("Reading from the sensor...");
+  timerEsperaId = timerEspera.setInterval(MINUTO*3, idle);
+  delay(10000);
+  sense();
 }
 
-void sense()
-{
-    long time = 0;
-    int av;
-    average = 0;
-    muestras = 0;
-    while (muestras < 10)
+void sense(){
+  int av;
+  average = 0;
+  muestras = 0;
+  while (muestras < 10)
+  {
+    if (millis() % SEGUNDO == 0)
     {
         if (millis() % SEGUNDO == 0)
         {
@@ -51,10 +59,20 @@ void sense()
             muestras++;
         }
     }
-    Serial.print("Final: ");
-    Serial.println(average / 10);
-    Serial.print("Bomba: ");
-    Serial.println(digitalRead(bombaPin));
+  }
+  Serial.print("Final: ");
+  Serial.println(average / 10);
+  Serial.print("Bomba: ");
+  Serial.println(digitalRead(bombaPin));
+  Serial.print("Contador: ");
+  Serial.println(contador);
+  contador++;
+  if (contador == 3)
+  {
+    Serial.println("Modificar");
+    setDelayReading(1);
+  }
+
 }
 
 void idle()
@@ -107,7 +125,8 @@ void core(uint8_t tipo, uint32_t valor)
 //    }
     }
     else if (tipo == 4) {  /// timer
-        // mandar llamar sense
+        Serial.println("Cambiando Timer");
+        setDelayReading(valor);
     }
     else if (tipo == 5) { /// sensores de humedad
 
