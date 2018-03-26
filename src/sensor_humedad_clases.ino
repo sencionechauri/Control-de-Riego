@@ -20,7 +20,9 @@ int contador = 0;
 
 void setDelayReading(long minutos)
 {
+  timerEspera.disable(timerEsperaId);
   timerEsperaId = timerEspera.setInterval(MINUTO * minutos, idle);
+  timerEspera.enable(timerEsperaId);
 }
 
 /*!
@@ -38,7 +40,7 @@ void setup()
   pinMode(bombaPin, INPUT);
     Serial.begin(115200);
   Serial.println("Reading from the sensor...");
-  timerEsperaId = timerEspera.setInterval(MINUTO*3, idle);
+  timerEsperaId = timerEspera.setInterval(MINUTO*2, idle);
   delay(10000);
   sense();
 }
@@ -47,17 +49,16 @@ void sense(){
   int av;
   average = 0;
   muestras = 0;
+  long t = millis();
   while (muestras < 10)
   {
-    if (millis() % SEGUNDO == 0)
+    if ((millis() - t) >= SEGUNDO)
     {
-        if (millis() % SEGUNDO == 0)
-        {
-            //Serial.println("Sensando");
-            av = manager.doSensing();
-            average += av;
-            muestras++;
-        }
+      t = millis();
+      //Serial.println("Sensando");
+      av = manager.doSensing();
+      average += av;
+      muestras++;
     }
   }
   Serial.print("Final: ");
