@@ -19,7 +19,7 @@ static const int BOMBA_ON = 1;
 /*!
  * Para usar JSON
  */
-#include <SoftwareSerial.h>
+//#include <SoftwareSerial.h>
 #include <SerialJson.h>
 SerialJson serialJson;
 void core();
