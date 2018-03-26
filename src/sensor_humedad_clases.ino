@@ -13,20 +13,25 @@ int muestras = 0;
 int timerEsperaId;
 int bombaPin = 7;
 static const int BOMBA_ON = 1;
+long delayOriginal = 2;
+int contador = 0;
+
+void setDelayReading(long minutos)
+{
+  timerEsperaId = timerEspera.setInterval(MINUTO * minutos, idle);
+}
 
 void setup()
 {
   pinMode(bombaPin, INPUT);
   Serial.begin(9600);
   Serial.println("Reading from the sensor...");
-  timerEsperaId = timerEspera.setInterval(HORA*6, idle);
-  delay(20000);
+  timerEsperaId = timerEspera.setInterval(MINUTO*3, idle);
+  delay(10000);
   sense();
 }
 
-void sense()
-{
-  long time = 0;
+void sense(){
   int av;
   average = 0;
   muestras = 0;
@@ -44,6 +49,14 @@ void sense()
   Serial.println(average / 10);
   Serial.print("Bomba: ");
   Serial.println(digitalRead(bombaPin));
+  Serial.print("Contador: ");
+  Serial.println(contador);
+  contador++;
+  if (contador == 3)
+  {
+    Serial.println("Modificar");
+    setDelayReading(1);
+  }
 }
 
 void idle()
