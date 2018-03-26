@@ -230,6 +230,330 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/.clang-format">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/.gitattributes">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/.github/ISSUE_TEMPLATE.md">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/.gitignore">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/.library.json">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/.mbedignore">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/.travis.yml">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/ArduinoJson.h">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/CHANGELOG.md">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/CMakeLists.txt">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/CONTRIBUTING.md">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/LICENSE.md">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/README.md">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/SUPPORT.md">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/appveyor.yml">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/banner.svg">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/examples/JsonConfigFile/JsonConfigFile.ino">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/examples/JsonGeneratorExample/JsonGeneratorExample.ino">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/examples/JsonHttpClient/JsonHttpClient.ino">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/examples/JsonParserExample/JsonParserExample.ino">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/examples/JsonServer/JsonServer.ino">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/examples/JsonUdpBeacon/JsonUdpBeacon.ino">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/examples/ProgmemExample/ProgmemExample.ino">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/examples/StringExample/StringExample.ino">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/keywords.txt">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/library.json">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/library.properties">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson.h">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Configuration.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Data/Encoding.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Data/JsonBufferAllocated.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Data/JsonFloat.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Data/JsonInteger.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Data/JsonVariantAs.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Data/JsonVariantContent.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Data/JsonVariantDefault.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Data/JsonVariantType.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Data/List.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Data/ListConstIterator.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Data/ListIterator.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Data/ListNode.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Data/NonCopyable.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Data/ReferenceType.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Data/ValueSaver.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Deserialization/Comments.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Deserialization/JsonParser.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Deserialization/JsonParserImpl.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Deserialization/StringWriter.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/DynamicJsonBuffer.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonArray.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonArrayImpl.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonArraySubscript.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonBuffer.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonBufferBase.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonBufferImpl.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonObject.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonObjectImpl.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonObjectSubscript.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonPair.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonVariant.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonVariantBase.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonVariantCasts.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonVariantComparisons.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonVariantImpl.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonVariantOr.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/JsonVariantSubscripts.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Polyfills/attributes.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Polyfills/ctype.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Polyfills/isFloat.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Polyfills/isInteger.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Polyfills/math.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Polyfills/parseFloat.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Polyfills/parseInteger.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/RawJson.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Serialization/DummyPrint.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Serialization/DynamicStringBuilder.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Serialization/FloatParts.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Serialization/IndentedPrint.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Serialization/JsonPrintable.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Serialization/JsonSerializer.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Serialization/JsonSerializerImpl.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Serialization/JsonWriter.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Serialization/Prettyfier.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Serialization/StaticStringBuilder.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/Serialization/StreamPrintAdapter.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/StaticJsonBuffer.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/StringTraits/ArduinoStream.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/StringTraits/CharPointer.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/StringTraits/FlashString.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/StringTraits/StdStream.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/StringTraits/StdString.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/StringTraits/StringTraits.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/TypeTraits/EnableIf.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/TypeTraits/FloatTraits.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/TypeTraits/IsArray.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/TypeTraits/IsBaseOf.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/TypeTraits/IsChar.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/TypeTraits/IsConst.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/TypeTraits/IsFloatingPoint.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/TypeTraits/IsIntegral.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/TypeTraits/IsSame.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/TypeTraits/IsSignedIntegral.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/TypeTraits/IsUnsignedIntegral.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/TypeTraits/IsVariant.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/TypeTraits/RemoveConst.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/.piolibdeps/ArduinoJson_ID64/src/ArduinoJson/TypeTraits/RemoveReference.hpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/lib/SerialJson/SerialJson.h">
+			<Option target="Control-de-Riego"/>
+		</Unit>
 		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/lib/SimpleTimer/SimpleTimer.cpp">
 			<Option target="Control-de-Riego"/>
 		</Unit>
