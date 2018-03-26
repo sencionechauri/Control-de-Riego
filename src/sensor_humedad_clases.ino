@@ -106,4 +106,10 @@ void core(uint8_t tipo, uint32_t valor)
 //      aSwitch.on();
 //    }
     }
+    else if (tipo == 4) {  /// timer
+        // mandar llamar sense
+    }
+    else if (tipo == 5) { /// sensores de humedad
+
+    }
 }
