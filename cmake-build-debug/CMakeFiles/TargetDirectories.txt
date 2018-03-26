@@ -1,0 +1,11 @@
+/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/CMakeFiles/Control-de-Riego.dir
+/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir
+/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir
+/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOADFS.dir
+/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir
+/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/CMakeFiles/PLATFORMIO_PROGRAM.dir
+/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/CMakeFiles/PLATFORMIO_TEST.dir
+/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/CMakeFiles/PLATFORMIO_CLEAN.dir
+/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir

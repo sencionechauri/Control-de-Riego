@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Control-de-Riego"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Control-de-Riego">
+				<Option output="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Control-de-Riego" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/cores/arduino"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/variants/standard"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/lib/SimpleTimer"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/EEPROM/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/HID/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SPI/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SoftwareSerial/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/Wire/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Adafruit_CircuitPlayground"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Adafruit_CircuitPlayground/utility"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Bridge/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Esplora/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Ethernet/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Firmata"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Firmata/utility"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/GSM/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Keyboard/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/LiquidCrystal/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Mouse/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/RobotIRremote/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Robot_Control/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Robot_Motor/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/SD/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Servo/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/SpacebrewYun/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Stepper/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/TFT/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Temboo/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/WiFi/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/tool-unity"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 Control-de-Riego"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Control-de-Riego/fast">
+				<Option output="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Control-de-Riego" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/cores/arduino"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/variants/standard"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/lib/SimpleTimer"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/EEPROM/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/HID/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SPI/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/SoftwareSerial/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/__cores__/arduino/Wire/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Adafruit_CircuitPlayground"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Adafruit_CircuitPlayground/utility"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Bridge/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Esplora/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Ethernet/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Firmata"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Firmata/utility"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/GSM/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Keyboard/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/LiquidCrystal/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Mouse/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/RobotIRremote/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Robot_Control/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Robot_Motor/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/SD/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Servo/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/SpacebrewYun/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Stepper/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/TFT/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/Temboo/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/framework-arduinoavr/libraries/WiFi/src"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/Volumes/Datos/Usuarios/michel/.platformio/packages/tool-unity"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 Control-de-Riego/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_REBUILD_PROJECT_INDEX">
+				<Option working_dir="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_REBUILD_PROJECT_INDEX"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_UPDATE_ALL">
+				<Option working_dir="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPDATE_ALL"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_UPLOADFS">
+				<Option working_dir="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOADFS"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_BUILD">
+				<Option working_dir="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_PROGRAM">
+				<Option working_dir="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_PROGRAM"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_TEST">
+				<Option working_dir="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_TEST"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_CLEAN">
+				<Option working_dir="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_CLEAN"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_UPLOAD">
+				<Option working_dir="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOAD"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/lib/SimpleTimer/SimpleTimer.cpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/lib/SimpleTimer/SimpleTimer.h">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/lib/readme.txt">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/src/SensorHumedad.cpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/src/SensorHumedad.h">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/src/SensorHumedadManager.cpp">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/src/SensorHumedadManager.h">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/src/sensor_humedad_clases.ino">
+			<Option target="Control-de-Riego"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Volumes/Datos/Usuarios/michel/Developer/Control-de-Riego/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
