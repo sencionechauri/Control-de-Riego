@@ -33,6 +33,18 @@ void setDelayReading(long minutos)
 SerialJson serialJson;
 void core();
 
+/*!
+ * Para usar el relevador
+ */
+
+#include <Relay.h>
+Relay relay(2);
+
+/*!
+ * Para usar el transistor (switch)
+ */
+#include <Switch.h>
+Switch aSwitch(8);
 
 void setup()
 {
@@ -67,6 +79,10 @@ void sense(){
   Serial.println(digitalRead(bombaPin));
   Serial.print("Contador: ");
   Serial.println(contador);
+    if (average / 10 < 20)
+    {
+        relay.on();
+    }
 //  contador++;
 //  if (contador == 3)
 //  {
@@ -109,21 +125,21 @@ void serialEvent() {
 void core(uint8_t tipo, uint32_t valor)
 {
     if (tipo == 1) {  /// relevador
-//    if (valor == 0) {
-//      relay.off();
-//    } else {
-//      relay.on();
-//    }
+        if (valor == 0) {
+            relay.off();
+        } else {
+            relay.on();
+        }
     }
     else if (tipo == 2) { /// bomba
 //        bomba.velocity(valor);
     }
     else if (tipo == 3) {
-//    if (valor == 0) {
-//      aSwitch.off();
-//    } else {
-//      aSwitch.on();
-//    }
+        if (valor == 0) {
+            aSwitch.off();
+        } else {
+            aSwitch.on();
+        }
     }
     else if (tipo == 4) {  /// timer
         Serial.println("Cambiando Timer");
