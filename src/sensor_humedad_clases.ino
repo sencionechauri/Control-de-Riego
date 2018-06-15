@@ -31,7 +31,7 @@ void setDelayReading(long minutos)
 //#include <SoftwareSerial.h>
 #include <SerialJson.h>
 SerialJson serialJson;
-void core();
+
 
 /*!
  * Para usar el relevador
@@ -101,7 +101,9 @@ void idle()
 void loop()
 {
 //    timerEspera.run();
-    serialJson.check();
+    if (serialJson.check()) {
+        core(serialJson.getTipo(), serialJson.getValor());
+    }
 }
 
 /*!
@@ -122,7 +124,7 @@ void serialEvent() {
     }
 }
 
-void core(uint8_t tipo, uint32_t valor)
+void core(const uint8_t &tipo, const uint32_t &valor)
 {
     if (tipo == 1) {  /// relevador
         if (valor == 0) {
