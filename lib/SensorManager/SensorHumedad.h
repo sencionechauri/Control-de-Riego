@@ -5,13 +5,15 @@
 
 class SensorHumedad
 {
-  public:
-    SensorHumedad(int pinValue) : pin(pinValue) {}
+public:
+    SensorHumedad(int pinValue)
+        : pin(pinValue)
+    {}
     void setPin(int value);
     int getPin();
     int getValue();
 
-  private:
+private:
     int pin;
     int value;
     static const int MIN_READING = 190;

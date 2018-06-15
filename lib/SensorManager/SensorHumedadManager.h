@@ -6,13 +6,13 @@
 
 class SensorHumedadManager
 {
-  public:
+public:
     SensorHumedadManager();
     int doSensing();
     int getAverage();
 
-  private:
-    SensorHumedad* sensors[];
+private:
+    SensorHumedad *sensors[];
     int average;
 };
 
