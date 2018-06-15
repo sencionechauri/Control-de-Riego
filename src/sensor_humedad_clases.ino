@@ -4,18 +4,29 @@
 #include <SimpleTimer.h>
 
 SimpleTimer timerEspera;
+
 SensorHumedadManager manager;
 
 int average = 0;
+
 int MIN_MOISTURE = 20;
+
 long SEGUNDO = 1000;
+
 long MINUTO = SEGUNDO * 60;
+
 long HORA = MINUTO * 60;
+
 int muestras = 0;
+
 int timerEsperaId;
+
 int bombaPin = 7;
+
 static const int BOMBA_ON = 1;
+
 long delayOriginal = 2;
+
 int contador = 0;
 
 void setDelayReading(long minutos)
@@ -32,9 +43,10 @@ void setDelayReading(long minutos)
 #include <Switch.h>
 
 SerialJson serialJson;
-Relay relay(5);
-Switch aSwitch(4);
 
+Relay relay(5);
+
+Switch aSwitch(4);
 
 void setup()
 {
@@ -55,15 +67,14 @@ void loop()
     }
 }
 
-void sense(){
+void sense()
+{
     int av;
     average = 0;
     muestras = 0;
     long t = millis();
-    while (muestras < 10)
-    {
-        if ((millis() - t) >= SEGUNDO)
-        {
+    while (muestras < 10) {
+        if ((millis() - t) >= SEGUNDO) {
             t = millis();
             //Serial.println("Sensando");
             av = manager.doSensing();
@@ -77,8 +88,7 @@ void sense(){
     Serial.println(digitalRead(bombaPin));
     Serial.print("Contador: ");
     Serial.println(contador);
-    if (average / 10 < 20)
-    {
+    if (average / 10 < 20) {
         relay.on();
     }
 //  contador++;
@@ -100,10 +110,11 @@ void idle()
  * Funciones para el Leer el JSON
  */
 
-void serialEvent() {
+void serialEvent()
+{
     while (Serial.available()) {
         // get the new byte:
-        char inChar = (char)Serial.read();
+        char inChar = (char) Serial.read();
         // add it to the inputString:
         serialJson.inputString += inChar;
         // if the incoming character is a newline, set a flag
@@ -119,7 +130,8 @@ void core(const uint8_t &tipo, const uint32_t &valor)
     if (tipo == 1) {  /// relevador
         if (valor == 0) {
             relay.off();
-        } else {
+        }
+        else {
             relay.on();
         }
     }
@@ -129,7 +141,8 @@ void core(const uint8_t &tipo, const uint32_t &valor)
     else if (tipo == 3) {
         if (valor == 0) {
             aSwitch.off();
-        } else {
+        }
+        else {
             aSwitch.on();
         }
     }

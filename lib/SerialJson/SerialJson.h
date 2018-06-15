@@ -8,7 +8,8 @@
 #include <Arduino.h>
 #include <ArduinoJson.h>
 
-class SerialJson {
+class SerialJson
+{
     StaticJsonBuffer<512> jsonBuffer;
     uint8_t tipo;
     uint32_t valor;
@@ -16,13 +17,15 @@ class SerialJson {
 public:
     String inputString = "";         // a string to hold incoming data
     boolean stringComplete = false;  // whether the string is complete
-    SerialJson() {}
+    SerialJson()
+    {}
 
-    bool check() {
+    bool check()
+    {
         if (stringComplete) {
             // Serial.println(inputString);
             // Serial.println(inputString.length());
-            JsonObject& root = jsonBuffer.parse(inputString);
+            JsonObject &root = jsonBuffer.parse(inputString);
             // root.printTo(Serial);
 
             tipo = root["tipo"];
@@ -41,11 +44,13 @@ public:
         return false;
     }
 
-    uint8_t &getTipo() {
+    uint8_t &getTipo()
+    {
         return tipo;
     }
 
-    uint32_t &getValor() {
+    uint32_t &getValor()
+    {
         return valor;
     }
 };

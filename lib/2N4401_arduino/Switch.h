@@ -7,7 +7,8 @@
 
 #include <Arduino.h>
 
-class Switch {
+class Switch
+{
     int8_t _pin;
 
 public:
@@ -15,7 +16,8 @@ public:
      *
      * @param pin - Digital PIN to controll switch on/off
      */
-    Switch(int8_t pin) {
+    Switch(int8_t pin)
+    {
         _pin = pin;
         pinMode(_pin, OUTPUT);
         off();
@@ -23,14 +25,16 @@ public:
 /*!
  * Switch on
  */
-    void on() {
+    void on()
+    {
         digitalWrite(_pin, HIGH);
     }
 
     /*!
      * Switch off
      */
-     void off() {
+    void off()
+    {
         digitalWrite(_pin, LOW);
     }
 
