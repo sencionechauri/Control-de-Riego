@@ -38,13 +38,13 @@ void core();
  */
 
 #include <Relay.h>
-Relay relay(2);
+Relay relay(5);
 
 /*!
  * Para usar el transistor (switch)
  */
 #include <Switch.h>
-Switch aSwitch(8);
+Switch aSwitch(4);
 
 void setup()
 {
