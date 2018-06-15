@@ -1,4 +1,4 @@
-#include "SensorHumedadManager.h"
+#include "../lib/SensorManager/SensorHumedadManager.h"
 #include <SimpleTimer.h>
 
 SimpleTimer timerEspera;
