@@ -20,65 +20,63 @@ int contador = 0;
 
 void setDelayReading(long minutos)
 {
-  timerEspera.disable(timerEsperaId);
-  timerEsperaId = timerEspera.setInterval(MINUTO * minutos, idle);
-  timerEspera.enable(timerEsperaId);
+    timerEspera.disable(timerEsperaId);
+    timerEsperaId = timerEspera.setInterval(MINUTO * minutos, idle);
+    timerEspera.enable(timerEsperaId);
 }
 
-/*!
- * Para usar JSON
- */
+
 //#include <SoftwareSerial.h>
 #include <SerialJson.h>
-SerialJson serialJson;
-
-
-/*!
- * Para usar el relevador
- */
-
 #include <Relay.h>
-Relay relay(5);
-
-/*!
- * Para usar el transistor (switch)
- */
 #include <Switch.h>
+
+SerialJson serialJson;
+Relay relay(5);
 Switch aSwitch(4);
+
 
 void setup()
 {
 
-  pinMode(bombaPin, INPUT);
+    pinMode(bombaPin, INPUT);
     Serial.begin(9600);
-  Serial.println("Reading from the sensor...");
+    Serial.println("Reading from the sensor...");
 //  timerEsperaId = timerEspera.setInterval(MINUTO*2, idle);
 //  delay(10000);
 //  sense();
 }
 
-void sense(){
-  int av;
-  average = 0;
-  muestras = 0;
-  long t = millis();
-  while (muestras < 10)
-  {
-    if ((millis() - t) >= SEGUNDO)
-    {
-      t = millis();
-      //Serial.println("Sensando");
-      av = manager.doSensing();
-      average += av;
-      muestras++;
+void loop()
+{
+//    timerEspera.run();
+    if (serialJson.check()) {
+        core(serialJson.getTipo(), serialJson.getValor());
     }
-  }
-  Serial.print("Final: ");
-  Serial.println(average / 10);
-  Serial.print("Bomba: ");
-  Serial.println(digitalRead(bombaPin));
-  Serial.print("Contador: ");
-  Serial.println(contador);
+}
+
+void sense(){
+    int av;
+    average = 0;
+    muestras = 0;
+    long t = millis();
+    while (muestras < 10)
+    {
+        if ((millis() - t) >= SEGUNDO)
+        {
+            t = millis();
+            //Serial.println("Sensando");
+            av = manager.doSensing();
+            average += av;
+            muestras++;
+        }
+    }
+    Serial.print("Final: ");
+    Serial.println(average / 10);
+    Serial.print("Bomba: ");
+    Serial.println(digitalRead(bombaPin));
+    Serial.print("Contador: ");
+    Serial.println(contador);
     if (average / 10 < 20)
     {
         relay.on();
@@ -96,14 +94,6 @@ void idle()
 {
     Serial.println("Iniciando");
     sense();
-}
-
-void loop()
-{
-//    timerEspera.run();
-    if (serialJson.check()) {
-        core(serialJson.getTipo(), serialJson.getValor());
-    }
 }
 
 /*!
