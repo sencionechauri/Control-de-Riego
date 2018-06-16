@@ -73,6 +73,7 @@ void loop()
 
 void sense()
 {
+
   aSwitch.on();
     int av;
     average = 0;
@@ -95,8 +96,12 @@ void sense()
     Serial.print("Contador: ");
     Serial.println(contador);
     if (average / 10 < 20) {
+      if (digitalRead(bombaPin))
+      {
         relay.on();
+      }
     }
+    
     aSwitch.off();
 //  contador++;
 //  if (contador == 3)
