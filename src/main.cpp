@@ -73,6 +73,7 @@ void loop()
 
 void sense()
 {
+  aSwitch.on();
     int av;
     average = 0;
     muestras = 0;
@@ -96,6 +97,7 @@ void sense()
     if (average / 10 < 20) {
         relay.on();
     }
+    aSwitch.off();
 //  contador++;
 //  if (contador == 3)
 //  {
