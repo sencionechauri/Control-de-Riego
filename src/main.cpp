@@ -86,6 +86,7 @@ void sense()
             muestras++;
         }
     }
+
     Serial.print("Final: ");
     Serial.println(average / 10);
     Serial.print("Bomba: ");
