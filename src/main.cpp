@@ -58,14 +58,14 @@ void setup()
     pinMode(bombaPin, INPUT);
     Serial.begin(9600);
     Serial.println("Reading from the sensor...");
-//  timerEsperaId = timerEspera.setInterval(MINUTO*2, idle);
-//  delay(10000);
+    timerEsperaId = timerEspera.setInterval(MINUTO*2, idle);
+   //delay(10000);
 //  sense();
 }
 
 void loop()
 {
-//    timerEspera.run();
+    timerEspera.run();
     if (serialJson.check()) {
         core(serialJson.getTipo(), serialJson.getValor());
     }
@@ -96,12 +96,15 @@ void sense()
     Serial.print("Contador: ");
     Serial.println(contador);
     if (average / 10 < 20) {
-      if (digitalRead(bombaPin))
+      t = millis();
+      while (digitalRead(bombaPin) && millis() - t < MINUTO)
       {
         relay.on();
       }
+
+      relay.off();
     }
-    
+
     aSwitch.off();
 //  contador++;
 //  if (contador == 3)
